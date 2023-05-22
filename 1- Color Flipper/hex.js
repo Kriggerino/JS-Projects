@@ -12,7 +12,8 @@ btn.addEventListener("click", function () {
   color.textContent = hexColor;
   document.body.style.backgroundColor = hexColor;
 });
-
+//Get a random number by multiplying length of hex array to math.random
+//and return the closest integer
 function getRandomNumber() {
   return Math.floor(Math.random() * hex.length);
 }
